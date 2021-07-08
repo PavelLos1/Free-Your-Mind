@@ -449,7 +449,7 @@ footer p a:hover {
 #sale {
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(to right bottom,#261c5c, #8566ff);    
+    background-image: linear-gradient(to right bottom,#261c5c, #8566ff);
     color: #fff;
 }
 
@@ -458,4 +458,19 @@ footer p a:hover {
     padding: 1rem;
     letter-spacing: -1px;
     font-weight: 900;
+    animation-name: soldout;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    transition: 1s;
+}
+
+@keyframes soldout {
+    100% {
+        color: red;
+        background-color: #8566ff);
+        }
+        
+/*    100% {transform: scale(1.5);} */
+
 }
