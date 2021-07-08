@@ -412,7 +412,7 @@ footer p a:hover {
 
 .buy:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transform: scale(1.1);
+    transform: scale(1.5);
     }
 
 .home {
@@ -428,8 +428,8 @@ footer p a:hover {
 }
 
 .home:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(90%);
 }
 
 #tickets h2 {
@@ -444,4 +444,18 @@ footer p a:hover {
 
 @keyframes tickethead {
     100% {transform: translate(0, 16px); }
+}
+
+#sale {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom,#261c5c, #8566ff);    
+    color: #fff;
+}
+
+#sale h1 {
+    font-size: 3.2rem;
+    padding: 1rem;
+    letter-spacing: -1px;
+    font-weight: 900;
 }
